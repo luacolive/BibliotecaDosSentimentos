@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia',serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    line-height: 1.8;
+    background-image: linear-gradient(to bottom, #1e1e1e,#3b3a3a);
+}
+
+.logo-container{
+    background-color: #e0e0e0;
+    padding: 10px  20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+/*
+.header-topo {
+    
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    padding-bottom: 15px;
+    
+  }
+*/
+    
+
+header {
+    background-color: #2a2a2a;
+    padding: 30px 30px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+header h1 {
+    color: #f2f2f2;
+    font-size: 2.0rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.biblioteca {
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #2c2c2c, #1e1e1e);
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    color: #d6d6d6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+/* estilização da página "sobre"*/
+
+.sobre {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #e0e0e0;
+  }
+  
+  .texto-sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #d6d6d6;
+    font-style: italic;
+  }
+  
+  .texto-sobre p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1rem;
+    color: #aaa;
+    line-height: 1.8;
+  }
+  
+  /*Estilização da página Alegria*/
+
+  .pagina-alegria {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #f9f9c5;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-alegria h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #fff4b1;
+    font-style: italic;
+  }
+  
+  .pagina-alegria p {
+    font-size: 1.1rem;
+    color: #f0f0c0;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 150, 0.2);
+  }
+  
+  .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffffcc;
+  }
+  
+  .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #ffee99;
+  }
+  
+  .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  /* Estilização da página Tristeza */
+
+.pagina-tristeza {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #b0c4de;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-tristeza h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #d0d8f0;
+    font-style: italic;
+  }
+  
+  .pagina-tristeza p {
+    font-size: 1.1rem;
+    color: #ccd4e0;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .pagina-tristeza .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .pagina-tristeza .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(160, 180, 220, 0.2);
+  }
+  
+  .pagina-tristeza .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #dbe4f5;
+  }
+  
+  .pagina-tristeza .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .pagina-tristeza .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #c2cce0;
+  }
+  
+  .pagina-tristeza .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina-tristeza .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+/* Estilização da página Amor */
+
+.pagina-amor {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #f2b5c4;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-amor h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #fcd6df;
+    font-style: italic;
+  }
+  
+  .pagina-amor p {
+    font-size: 1.1rem;
+    color: #f8cdd6;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .pagina-amor .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .pagina-amor .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 192, 203, 0.2);
+  }
+  
+  .pagina-amor .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffe2ea;
+  }
+  
+  .pagina-amor .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .pagina-amor .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #ffc9d6;
+  }
+  
+  .pagina-amor .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina-amor .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+/* Estilização da página Raiva */
+
+.pagina-raiva {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #f4a5a5;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-raiva h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ff8c8c;
+    font-style: italic;
+  }
+  
+  .pagina-raiva p {
+    font-size: 1.1rem;
+    color: #f1aaaa;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .pagina-raiva .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .pagina-raiva .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 80, 80, 0.2);
+  }
+  
+  .pagina-raiva .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffc2c2;
+  }
+  
+  .pagina-raiva .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .pagina-raiva .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #ffb0b0;
+  }
+  
+  .pagina-raiva .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina-raiva .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  /* Estilização da página Medo */
+
+.pagina-medo {
+    background: linear-gradient(to bottom, #1e1e1e, #121212);
+    color: #b0b0ff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-medo h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #bdbdff;
+    font-style: italic;
+  }
+  
+  .pagina-medo p {
+    font-size: 1.1rem;
+    color: #cfcfff;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .pagina-medo .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .pagina-medo .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(180, 180, 255, 0.15);
+  }
+  
+  .pagina-medo .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ddddff;
+  }
+  
+  .pagina-medo .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .pagina-medo .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #c3c3ff;
+  }
+  
+  .pagina-medo .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina-medo .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+/* Estilização da página Saudade */
+
+.pagina-saudade {
+    background: linear-gradient(to bottom, #1e1e1e, #2f2f2f);
+    color: #e6dada;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-saudade h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #f3d1d1;
+    font-style: italic;
+  }
+  
+  .pagina-saudade p {
+    font-size: 1.1rem;
+    color: #e0caca;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .pagina-saudade .elemento-sensorial {
+    margin-top: 30px;
+  }
+  
+  .pagina-saudade .elemento-sensorial img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  }
+  
+  .pagina-saudade .cita {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f8dede;
+  }
+  
+  .pagina-saudade .indicacoes {
+    margin-top: 40px;
+  }
+  
+  .pagina-saudade .indicacoes h3 {
+    margin-bottom: 10px;
+    color: #f4cccc;
+  }
+  
+  .pagina-saudade .indicacoes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagina-saudade .indicacoes li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /*Página da Playlist*/
+
+  .pagina-playlist {
+    background: linear-gradient(to bottom, #1e1e1e, #2b2b2b);
+    color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-playlist h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ccfaff;
+    font-style: italic;
+  }
+  
+  .pagina-playlist p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1rem;
+    color: #ddd;
+  }
+  
+  table {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #2f2f2f;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  }
+  
+  thead th {
+    background-color: #3c3c3c;
+    color: #ccfaff;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #555;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #292929;
+  }
+  
+  tbody tr:hover {
+    background-color: #404040;
+  }
+  
+  .pagina-links {
+    background: linear-gradient(to bottom, #1e1e1e, #2c2c2c);
+    color: #e0e0e0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-links h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ccfaff;
+    font-style: italic;
+  }
+  
+  .lista-emocoes {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  
+  .lista-emocoes li {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .lista-emocoes ul {
+    margin-top: 8px;
+    padding-left: 20px;
+  }
+  
+  .lista-emocoes a {
+    color: #ccfaff;
+    text-decoration: none;
+  }
+  
+  .lista-emocoes a:hover {
+    text-decoration: underline;
+  }
+  
+  /*Contato*/
+  .pagina-contato {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #e0e0e0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pagina-contato h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ccfaff;
+    font-style: italic;
+  }
+  
+  .pagina-contato p {
+    font-size: 1.1rem;
+    color: #ccfaff;
+    margin-bottom: 30px;
+  }
+  
+  .informacoes-contato {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .informacoes-contato ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .informacoes-contato li {
+    font-size: 1.1rem;
+    color: #ccfaff;
+    margin-bottom: 10px;
+  }
+  
+  .informacoes-contato a {
+    color: #ccfaff;
+    text-decoration: none;
+  }
+  
+  .informacoes-contato a:hover {
+    text-decoration: underline;
+  }
+
+  /*Página fotos*/
+  .pagina-fotos {
+    background: linear-gradient(to bottom, #1e1e1e, #2a2a2a);
+    color: #e0e0e0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .galeria h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ffeeaa;
+    font-style: italic;
+  }
+  
+  .galeria p {
+    font-size: 1.1rem;
+    color: #f0f0c0;
+    margin-bottom: 30px;
+  }
+  
+  .grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .grid-fotos img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-fotos img:hover {
+    transform: scale(1.05);
+  }
+  

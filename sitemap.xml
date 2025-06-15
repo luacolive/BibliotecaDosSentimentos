@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Páginas principais -->
     <url>
-        <loc>https://seusite.com/index.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/index.html</loc>
         <lastmod>2024-06-15</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://seusite.com/sobre.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/sobre.html</loc>
         <lastmod>2024-06-15</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://seusite.com/contato.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/contato.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
 
     <!-- Páginas de sentimentos -->
     <url>
-        <loc>https://seusite.com/alegria.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/alegria.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/amor.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/amor.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/medo.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/medo.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/raiva.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/raiva.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/saudade.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/saudade.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/tristeza.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/tristeza.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
 
     <!-- Outras páginas -->
     <url>
-        <loc>https://seusite.com/fotos.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/fotos.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/links.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/links.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
     <url>
-        <loc>https://seusite.com/playlist.html</loc>
+        <loc>https://luacolive.github.io/BibliotecaDosSentimentos/playlist.html</loc>
         <lastmod>2024-06-15</lastmod>
     </url>
 </urlset>

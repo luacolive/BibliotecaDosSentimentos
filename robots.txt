@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://luacolive.github.io/BibliotecaDosSentimentos/sitemap.xml

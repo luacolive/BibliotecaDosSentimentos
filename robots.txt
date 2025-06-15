@@ -1,7 +1,3 @@
 User-agent: *
-Allow: / 
-Disallow: /admin/       
-Disallow: /private/     
-
-# Link para o sitemap
+Allow: /
 Sitemap: https://luacolive.github.io/BibliotecaDosSentimentos/sitemap.xml

@@ -1,7 +1,7 @@
 User-agent: *
 Allow: / 
-Disallow: /admin/       # Bloqueia pasta de administração (se existir)
-Disallow: /private/     # Bloqueia outras pastas sensíveis
+Disallow: /admin/       
+Disallow: /private/     
 
 # Link para o sitemap
 Sitemap: https://luacolive.github.io/BibliotecaDosSentimentos/sitemap.xml

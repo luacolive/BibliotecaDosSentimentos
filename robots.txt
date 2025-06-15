@@ -4,4 +4,4 @@ Disallow: /admin/       # Bloqueia pasta de administração (se existir)
 Disallow: /private/     # Bloqueia outras pastas sensíveis
 
 # Link para o sitemap
-Sitemap: https://seusite.com/sitemap.xml
+Sitemap: https://luacolive.github.io/BibliotecaDosSentimentos/sitemap.xml
